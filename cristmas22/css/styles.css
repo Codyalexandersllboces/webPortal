@@ -1,0 +1,427 @@
+/* CSS Grid Document */
+body, header, nav, div, img, h1, h2, h3, h4, h5, h6, footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #233D4D;
+    color: #FFF;
+    font-size: 1.5em;
+}
+
+img {
+    max-width:100%;
+    display: block;
+}
+
+header {
+    padding: 2em 0;
+}
+
+#container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav{
+    float: left;
+    margin: auto;
+    padding: 2%; 
+    text-decoration: none;
+    color: white
+}
+
+nav ul{
+      list-style-type: none;
+      text-align: center;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav li {
+     list-style-type: none;
+      font-size: 1.5em;
+      font-family: 'Francois One', sans-serif;
+      border-top: 1px solid #fff;
+}
+
+nav li:first-child {
+      border-top: none;
+}
+
+nav li a{
+      display: block;
+      color: #fff;
+      padding: 0.5em 1em;
+      text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+section a {
+    float: none;
+    display: block;
+    font-size: 2em;
+    line-height: 100px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.5)
+}
+
+.cssGrid {
+    display: block;
+    width: 100%;
+    
+}
+.cssGrid 
+
+#item1 {
+    background-image: url("../images/Dog.jpg");
+      background-size:contain;
+    min-height: 300px;
+}
+
+#item1 a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+#item1 p {
+    text-align: center;
+}
+
+#item2 {
+    background-image: url(../images/GPU.jpg);
+      background-size: cover;
+      background-position: 50% 50%;
+    min-height: 300px;
+    padding: 5% 2% 3% 2%;
+      border-radius: 20px;
+      margin-bottom: 7%;
+}
+
+#item2 a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+#item2 p {
+    text-align: center;
+}
+
+#item3 {
+    background-image: url(../images/SSD.PNG);
+      background-size: cover;
+      background-position: 25% 25%;
+    min-height: 300px;
+    padding: 5% 2% 3% 2%;
+      border-radius: 20px;
+      margin-bottom: 7%;
+}
+
+#item3 a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+#item3 p {
+    text-align: center;
+}
+    
+#item4 {
+    background-image: url("../images/Truck.jpg");
+    background-size:contain;
+    min-height: 300px;
+}
+
+#item4 a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+#item4 p {
+    text-align: center;
+}
+
+#item5 {
+    background-image: url("../images/Money.jpg");
+      background-size: cover;
+      background-position: 25% 25%;
+    min-height: 300px;
+    padding: 5% 2% 3% 2%;
+      border-radius: 20px;
+      margin-bottom: 7%;
+    
+}
+
+#item5 a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+#item5 p{
+    text-align: center;
+}
+
+#item6 {
+    background-image: url("../images/blanket.jpg");
+      background-size: cover;
+      background-position: 25% 25%;
+    min-height: 300px;
+    padding: 5% 2% 3% 2%;
+      border-radius: 20px;
+      margin-bottom: 7%;
+}
+
+#item6 a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+#item6 p {
+    text-align: center;
+}
+
+#item7 {
+    background-image: url("../images/lego rail gun.jpg");
+      background-size: cover;
+      background-position: 25% 25%;
+    min-height: 300px;
+    padding: 5% 2% 3% 2%;
+      border-radius: 20px;
+      margin-bottom: 7%;
+}
+
+#item7 a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+#item7p {
+    text-align: center;
+}
+
+#item8 {
+    background-image: url("../images/gas.jpg");
+      background-size: cover;
+      background-position: 25% 25%;
+    min-height: 300px;
+    padding: 5% 2% 3% 2%;
+      border-radius: 20px;
+      margin-bottom: 7%;
+}
+
+#item8 a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+#item8 p {
+    text-align: center;
+}
+
+#item9 {
+    background-image: url("../images/3D Printer.jpg");
+      background-size: cover;
+      background-position: 25% 25%;
+    min-height: 300px;
+    padding: 5% 2% 3% 2%;
+      border-radius: 20px;
+      margin-bottom: 7%;
+}
+
+#item9 a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+#item9 p {
+    text-align: center;
+}
+
+/* Start CSS Grid Code here */
+@supports (grid-area: auto) {
+    /* Media Query Tablet */
+    @media screen and (min-width: 600px) {
+        
+        /*apply css grid*/
+        .cssGrid {
+            display:grid;
+            width: 100%;
+            grid-template-columns: 45% 45%;
+            grid-template-areas:
+                "it1 it1"
+                "it2 it3"
+                "it4 it4"
+                "it5 it6"
+                "it7 it7"
+                "it8 it9";
+            grid-gap: 1% 1%;
+            margin: 10% 0;
+            justify-content: center;
+        }
+        
+        #item1{
+            grid-area: it1;
+            background-color: #a31a1a;
+            border: 2px solid;
+        }
+        
+        #item2{
+            grid-area: it2;
+            background-color: #1f6b33;
+            border: 2px solid;
+        }
+        
+        #item3{
+            grid-area: it3;
+            background-color: #1f6b33;
+            border: 2px solid;
+        }
+        
+        #item4{
+            grid-area: it4;
+            background-color: #a31a1a;
+            border: 2px solid;
+        }
+        
+        #item5{
+            grid-area: it5;
+            background-color: #1f6b33;
+            border: 2px solid;
+        }
+        
+        #item6{
+            grid-area: it6;
+            background-color: #1f6b33;
+            border: 2px solid;
+        }
+        
+        #item7{
+            grid-area: it7;
+            background-color: #a31a1a;
+            border: 2px solid;
+        }
+        
+        #item8{
+            grid-area: it8;
+            background-color: #1f6b33;
+            border: 2px solid;
+        }
+        
+        #item9{
+            grid-area: it9;
+            background-color: #1f6b33;
+            border: 2px  solid;
+        }
+        
+        
+    }
+    /* Closing Media Query Tablet */
+    
+    /* Media Query Desktop */
+    @media screen and (min-width: 1000px) {
+        /*apply css grid*/
+        .cssGrid {
+            display:grid;
+            width: 100%;
+            grid-template-columns: 30% 30% 30%;
+            grid-template-areas:
+                "it1 it2 it3"
+                "it4 it5 it6"
+                "it7 it8 it9";
+            grid-gap: 1% 1%;
+            margin: 10% 0;
+            justify-content: center;
+        }
+        /*row 1*/
+        #item1{
+            grid-area: it1;
+            background-color: #a31a1a;
+            border: 2px solid;
+        }
+        
+        #item2{
+            grid-area: it2;
+            background-color: #1f6b33;
+            border: 2px solid;
+        }
+        
+        #item3{
+            grid-area: it3;
+            background-color: #a31a1a;
+            border: 2px solid;
+        }
+        
+        #item4{
+            grid-area: it4;
+            background-color: #1f6b33;
+            border: 2px solid;
+        }
+        
+        #item5{
+            grid-area: it5;
+            background-color: #a31a1a;
+            border: 2px solid;
+        }
+        
+        #item6{
+            grid-area: it6;
+            background-color: #1f6b33;
+            border: 2px solid;
+        }
+        
+        #item7{
+            grid-area: it7;
+            background-color: #a31a1a;
+            border: 2px solid;
+        }
+        
+        #item8{
+            grid-area: it8;
+            background-color: #1f6b33;
+            border: 2px solid;
+        }
+        
+        #item9{
+            grid-area: it9;
+            background-color: #a31a1a;
+            border: 2px  solid;
+        }
+    } /* Closing Media Query Desktop */
+    
+    /* Media Query Large Screen */
+    @media screen and (min-width: 1250px) {
+        .cssGrid{
+            width: 1250px;
+            margin: 0 auto;
+        }
+    }
+} 
+/* End CSS Grid Code here */
+
+footer {
+    width: 100%;
+    padding: 5% 0 10% 0;
+    font-size: .75em;
+    text-align: center;
+    background-color: #233D4D;
+    color: white;
+    
+}
+
+footer .finePrint {
+  float: right;
+  max-width: 500px;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}

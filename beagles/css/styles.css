@@ -1,0 +1,149 @@
+/* CSS Document */
+
+/*
+google fonts
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&family=Open+Sans&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-color: #e4f2ea;
+} 
+
+header h1 {
+    font-size: 5em;
+    color: #e4f2ea;
+    text-align: center;
+}
+
+.hnav{
+    width: 100%;
+    background-color: #11181e;
+    min-height: 50px;
+    text-align: center;
+}
+
+.hnav ul {
+    display: block;
+    padding-top: .5em;
+    margin: 0;
+}
+
+.hnav ul li {
+    display: inline-block;
+    list-style-type: none;
+    width: 10%;
+    padding: 2%;
+}
+
+.hnav a {
+    text-decoration: none;
+    color: #e4f2ea;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.hnav a:hover{
+    
+
+    background-color: #e4f2ea;
+    color: #11181e;
+}
+
+header{
+    min-height: 400px;
+    background-color: #724f2f;
+    background-image: url("../images/appearance_beagle.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20% 20%;
+}
+
+main {
+    min-height: 500px;
+    width: 100%;
+}
+
+#container {
+    width: 80%;
+    min-height: 500px;
+    background-color: #e4f2ea;
+    margin: 0 auto;
+    font-size: 1.5em;
+    padding-bottom: 2%;
+}
+
+#container img {
+    float: right;
+    height: 250px;
+    border: thin;
+    border-radius: 2%;
+    margin-left: 2%;
+}
+
+#container p {
+    margin-bottom: 1em;
+}
+
+#info {
+    border: 10px thin;
+    text-align: left;
+    float: left;
+}
+
+h1{
+    
+}
+
+h2{
+
+}
+
+blockquote {
+    font-size: 3em;
+}
+
+table {
+    
+}
+
+footer {
+    min-height: 300px;
+    background-color: #11181e;
+    color: #e4f2ea;
+    text-align: center;
+    
+}
+
+.fnav{
+    width: 100%;
+    background-color: #734f2f;
+    min-height: 20px;
+    text-align: right;
+}
+
+.fnav ul {
+    display: block;
+    padding-bottom: .5em;
+    margin: 0;
+}
+
+.fnav ul li {
+    display: inline-block;
+    list-style-type: none;
+    width: 5%;
+    padding: 2%;
+}
+
+.fnav a {
+    text-decoration: none;
+    color: #e4f2ea;
+    font-size: 1em;
+    font-weight: bold;
+}

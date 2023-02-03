@@ -1,0 +1,88 @@
+body, header, nav, main, footer, h1, div, img{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    background-color: #bd3d20;
+}
+
+header {
+    top: 0;
+    background-color: #a8361d;
+    height: 190px;
+}
+
+img{
+    margin: 0 auto;
+    height: 75%;
+    display: block;
+}
+
+nav {
+    padding: 1%; 
+    margin-bottom: 1%;
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    margin: 2%;
+    font-size: 1.5em;
+}
+
+nav li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    clear: both;
+    background-color: #bd3d20;
+    font-size: 1.15em;
+    font-family: 'Roboto Slab', serif;
+}
+#home{
+    color: white;
+}
+
+#history{
+    color: white;
+}
+
+#careers{
+    color: white;
+}
+#comitments{
+    color: white;
+}
+#info{
+    color: white;
+}
+  
+fieldset, input, select, textarea {
+    margin-bottom: 2%;
+    color: white;
+}
+
+fieldset legend {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+lable{
+    display: block;
+    padding-top: 3%;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    background-color: #a8361d;
+    color: white;
+}
