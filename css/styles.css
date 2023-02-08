@@ -1,0 +1,77 @@
+/* CSS Document */
+
+/*CSS reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+nav{
+    max-height: 50px;
+    font-size: .75em;
+    padding: 2%;
+    background-color: #686363;
+}
+nav ul li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    padding: .5em 1em;
+}
+
+#intro{
+    max-height: 200px;
+    height: 200px;
+    background-color:#8D8282;
+    padding: 2%;
+}
+
+#about{
+    max-height: 200px;
+    height: 200px;
+    background-color: #AFA3A3;
+    padding: 2%;
+}
+
+#about h3 {
+    text-align: center;
+    font-size: 2em;
+}
+
+#webProjects {
+    max-height: 500px;
+    height: 500px;
+    background-color:#8D8282;
+    padding: 2%;
+}
+
+#resume {
+    max-height: 100px;
+    height: 100px;
+    background-color: #AFA3A3;
+    padding: 2%;
+}
+
+#resume h4 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#btn {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    max-height: 200px;
+    text-align: center;
+    background-color: #686363;
+    color: white;
+}
